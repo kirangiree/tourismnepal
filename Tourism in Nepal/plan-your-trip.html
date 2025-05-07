@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<!--HEADER-->
+<div class="header" style=background:#F0F8FF;>
+<br>
+<div>&nbsp; &nbsp; <a href="index.html"><img src="images/logo/header-logo.png" width="200" height="100"></a></div>
+<br>
+<div> </div>
+<div>
+</div>
+</div>
+<!--NAVIGATION-BAR-->
+<div class="topnav" id="myTopnav">
+  <a href="places-to-visit.html">PLACES TO VISIT</a>
+  <a href="adventures-to-enjoy.html">ADVENTURES TO ENJOY</a>
+  <a href="events-and-festivals.html">EVENTS AND FESTIVALS</a>
+  <a href="visit-nepal-2020.html">VISIT NEPAL 2025</a>
+  <a href="plan-your-trip.html" class="active">PLAN YOUR TRIP</a>
+  <a href="javascript:void(0);" class="icon" onclick="myNavigation()">
+    <i><b>+</b></i>
+  </a>
+</div>
+
+
+<!--SLIDESHOW-->
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="images/slider/slider-6.jpg" style="width:100%">
+  <div class="text">PARAGLIDING</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="images/slider/slider-1.jpg" style="width:100%">
+  <div class="text">KATHMANDU VALLEY</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="images/slider/slider-2.jpg" style="width:100%">
+  <div class="text">HOLI FESTIVAL</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="images/slider/slider-3.jpg" style="width:100%">
+  <div class="text">RAFTING</div>
+</div>
+<div class="mySlides fade">
+  <img src="images/slider/slider-4.jpg" style="width:100%">
+  <div class="text">LUMBINI</div>
+</div>
+<div class="mySlides fade">
+  <img src="images/slider/slider-5.jpg" style="width:100%">
+  <div class="text">TIHAR FESTIVAL</div>
+</div>
+
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+<br>
+<!--plan-your-trip -->
+
+<div class="main">
+
+<h1 align="center">PLAN YOUR<font color="#3399FF"> TRIP</font></h1>
+<br>
+  <form>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+	
+	<label for="address">Address</label>
+    <input type="text" id="address" name="address" placeholder="Your address..">
+	
+	<label for="contact-number">Contact Number</label>
+    <input type="text" id="contact-number" name="contact-number" placeholder="Your contact number..">
+	
+	<label for="contact-number">Email Address</label>
+    <input type="text" id="contact-number" name="contact-number" placeholder="123@yourmail.com..">
+
+
+    <label for="places-to-visit">Place you want to visit</label>
+    <select id="places-to-visit" name="places-to-visit">
+      <option value="Solukhumbu">Solukhumbu</option>
+      <option value="Kathmandu">Kathmandu</option>
+      <option value="Pokhara">Pokhara</option>
+	  <option value="Lumbini">Lumbini</option>
+      <option value="Chitwan">Chitwan</option>
+      <option value="Mugu">Mugu</option>
+    </select>
+  
+    <input type="submit" onclick=myContact();>
+  </form>
+  </div>
+<br>
+<br>
+<!--footer-section -->
+<div class="flex-container">
+<div>
+<h4>PLACES TO VISIT</h4>
+<a class="footer-link"  href="solukhumbu.html">Solukhumbu</a><br><br>
+<a class="footer-link"  href="kathmandu.html">Kathmandu Valley</a><br><br>
+<a class="footer-link"  href="pokhara.html">Pokhara</a><br><br>
+<a class="footer-link"  href="lumbini.html">Lumbini</a><br><br>
+<a class="footer-link"  href="chitwan.html">Chitwan</a><br><br>
+<a class="footer-link"  href="mugu.html">Mugu</a><br><br>
+</div>
+<div>
+<h4>ADVENTURES TO ENJOY</h4>
+<a class="footer-link" href="mountain-trekking.html">Mountain Trekking</a><br><br>
+<a class="footer-link" href="bungee-jumping.html">Bungee Jumping</a><br><br>
+<a class="footer-link" href="paragliding.html">Paragliding</a><br><br>
+<a class="footer-link" href="rock-climbing.html">Rock Climbing</a><br><br>
+<a class="footer-link" href="rafting.html">Rafting</a><br><br>
+<a class="footer-link" href="zip-flying.html">Zip Flying</a><br><br>
+</div>
+<div>
+<h4>EVENTS AND FESTIVALS</h4>
+<a class="footer-link" href="dashain.html">Dashain</a><br><br>
+<a class="footer-link" href="tihar.html">Tihar</a><br><br>
+<a class="footer-link" href="chhat.html">Chhat</a><br><br>
+<a class="footer-link" href="holi.html">Holi</a><br><br>
+<a class="footer-link" href="gai-jatra.html">Gai Jatra</a><br><br>
+<a class="footer-link" href="shiva-ratri.html">Shiva Ratri</a><br><br>
+</div>
+
+</div>
+<!--FOOTER-->
+<div>
+  <center>
+    <br><br>
+    Designed by : <a class="footer" href="https://www.instagram.com/apositivekiran" target="_blank">Kiran Giri</a>
+    <br>
+    <br>
+    </center>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="js/javascript.js">
+</script>
+
+</body>
+</html>
